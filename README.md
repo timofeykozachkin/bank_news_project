@@ -1,4 +1,7 @@
 # Прогнозирование показателей доходности и риска банков с помощью текущих результатов деятельности и анализа новостей
+#### *Prediction of banks’ performance and risks using current business results and news sentiment analysis*
+
+----
 
 | Роль | ФИО |
 | ----------- | ----------- |
