@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  banks-app:
+    build: .
+    image: banks-app:latest
+    command: ['gunicorn', '-b', '0.0.0.0:5050', '--workers=3', '--timeout', '1000', 'server:app']
+    environment:
+      CONFIGURATION_SETUP: config.DevelopmentDockerConfig
+    env_file:
+      - app/.env
+    ports:
+      - "5050:5050"

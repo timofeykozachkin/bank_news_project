@@ -37,14 +37,10 @@
 | Название датасета | Количество наблюдений / Объем данных |
 | ----------- | ----------- |
 | [Датасет с показателями деятельности (в т.ч. дефолтов) российских банков](https://www.kaggle.com/datasets/johnds2/bankdefaultsinrussia/data) | 70k |
-| [Russian Telegram chats history](https://www.kaggle.com/datasets/dolfik/russian-telegram-chats-history/data) | 177 историй новостных чатов (3GB) |
 |[News dataset from Lenta.Ru](https://www.kaggle.com/datasets/yutkin/corpus-of-russian-news-articles-from-lenta) | 800k |
-| [Russian News 2020](https://www.kaggle.com/datasets/vfomenko/russian-news-2020)| 21k |
-| *to be added/updated* | - |
 
-*вероятно будут добавлены парсеры некоторых источников финансовых данных либо другие более подходящие датасеты после анализа представленных датасетов.*
 
-### Описание итогового продукта
+### Описание итогового сервиса
 
 Итоговый сервис будет предсказывать показателей доходности и рисков банка:
 * на основании имеющихся данных 
